@@ -1,0 +1,30 @@
+{
+  "name": "phabdev-audit",
+  "version": "1.0.0",
+  "description": "Strumento di diagnosi operativa read-only per WooCommerce e Shopify",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "bin": {
+    "phabdev-audit": "dist/src/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/test/*.test.js",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "audit",
+    "shopify",
+    "woocommerce",
+    "phabdev"
+  ],
+  "author": "PHABDEV",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "picocolors": "^1.0.1"
+  }
+}
