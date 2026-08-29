@@ -1,6 +1,6 @@
 {
   "name": "phabdev-audit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Strumento di diagnosi operativa read-only per WooCommerce e Shopify",
   "type": "module",
   "main": "dist/src/index.js",
