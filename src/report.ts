@@ -60,7 +60,7 @@ export function printAndSaveReport(platform: string, shop: string, findings: Fin
   md += `\n## ⚠️ Costo dell'Inazione (Stima)\n\n`;
   md += `In base alle inefficienze rilevate (${critici} criticità, ${attenzioni} avvisi), stimiamo un "Costo dell'Inazione" di circa **€${(cost * 12).toLocaleString('it-IT')} / anno** in lavoro manuale perso, mancate vendite e ticket di assistenza.\n\n`;
   md += `Questo disordine operativo ti costa tempo e denaro ogni singolo giorno. PHABDEV ha un'infrastruttura d'integrazione pronta all'85% per risolvere questa emorragia in 15 giorni senza cambiare i tuoi sistemi esistenti.\n\n`;
-  md += `👉 **[Prenota ora la tua Sessione di Analisi Operativa](https://calendly.com/phabdev/sessione-di-analisi-operativa)**\n`;
+  md += `👉 **[Valuta il tuo eCommerce su KeSbatty](https://my.kesbatty.app/c/valuta-il-tuo-ecommerce)**\n`;
   md += `\n---\n*Report generato dallo strumento di diagnosi PHABDEV (phabdev-audit). Nessun dato è stato modificato.*\n`;
 
   writeFileSync('phabdev-audit-report.md', md);
